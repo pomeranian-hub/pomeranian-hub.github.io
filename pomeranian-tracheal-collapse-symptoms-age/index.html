@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pomeranian Tracheal Collapse Symptoms Age</title>
-<meta name="description" content="Updated 2026 · Objection handler — we tackle the hard questions: when is pomeranian tracheal collapse symptoms age and how to celebrate healthy senior years…">
+<title>How to Spot Pomeranian Tracheal Collapse — Before It Worsens</title>
+<meta name="description" content="Recognize early tracheal collapse symptoms in Pomeranians by age. Learn what to watch for and when to seek veterinary care for your dog's health." />
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://pomeranian-hub.github.io/pomeranian-tracheal-collapse-symptoms-age.html">
 <style>
@@ -89,17 +89,26 @@
 <section class="hero">
   <div class="hero-inner">
     <p>Pomeranian owner notes</p>
-    <h1>Pomeranian Tracheal Collapse Symptoms Age</h1>
+    <h1>How to Spot Pomeranian Tracheal Collapse — Before It Worsens</h1>
     <p class="lead">Updated 2026 · Objection handler — we tackle the hard questions: when is pomeranian tracheal collapse symptoms age and how to celebrate healthy senior years…</p>
   </div>
 </section>
 <div class="layout">
   <article class="article">
+    
+    
     <nav class="article-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/blog.html">Blog</a><span>›</span><span aria-current="page">Pomeranian Tracheal Collapse Symptoms Age</span></nav>
     <p class="meta">Published: 2026-05-25 · Pomeranian Hub</p>
     <article>
     
     <p><span class="date-badge">Updated 2026</span> · <strong>Objection handler</strong> — we tackle the hard questions: <em>when is pomeranian tracheal collapse symptoms age</em> and how to celebrate healthy senior years. No fluff, just facts.</p>
+
+<figure style="margin: 22px 0; text-align: center;">
+  <a href="https://www.reddit.com/r/Pomeranians/comments/1thmnma/someone_in_another_sub_asked_if_beep_was_a_very/" target="_blank" rel="noopener noreferrer">
+    <img src="https://i.redd.it/9x1i3hcog32h1.jpeg" alt="Someone in another sub asked if Beep was a “very poorly bred Pomeranian.” Am I b" style="max-width:100%; border-radius:10px; box-shadow: 0 2px 12px rgba(0,0,0,0.15);">
+  </a>
+  <figcaption style="font-size:0.85rem; color:#6b7280; margin-top:8px;">Photo by <a href="https://www.reddit.com/r/Pomeranians/comments/1thmnma/someone_in_another_sub_asked_if_beep_was_a_very/" target="_blank" rel="noopener noreferrer">u//u/blamberr</a> on <a href="https://www.reddit.com/r/pomeranians/" target="_blank" rel="noopener noreferrer">r/pomeranians</a> (0 upvotes)</figcaption>
+</figure>
 
     <p>If you have Googled <strong>pomeranian tracheal collapse symptoms age</strong>, you have probably seen conflicting timelines. Some say only old dogs, others claim it starts at 2 years. We are here to bust myths, give dates, and help you understand the real timeline — plus how to <em>celebrate</em> your Pomeranian respiratory health with practical activities.</p>
 
@@ -228,7 +237,7 @@ Here are three emotionally-driven Call to Action (CTA) options tailored to the s
       <input type="email" placeholder="Your email">
       <button>Get the notes</button>
     </section>
-
+    <section class="sidebar-panel"><h3>More Pomeranian Articles</h3><ul><li><a href="/pomeranian-hypoglycemia-puppy-statistics.html">Pomeranian Hypoglycemia Puppy Statistics</a></li></ul></section>
   </aside>
 </div>
 <footer class="footer">
@@ -237,5 +246,68 @@ Here are three emotionally-driven Call to Action (CTA) options tailored to the s
     <span><a href="/privacy.html">Privacy</a> · <a href="/contact.html">Contact</a> · <a href="/sitemap.html">Sitemap</a></span>
   </div>
 </footer>
+
+<script>
+(function() {
+  var _ga4 = "";
+  var _site = "pomeranian-hub.github.io";
+  var _article = "pomeranian-tracheal-collapse-symptoms-age";
+  var _startTime = Date.now();
+  var _scrollMarks = {25: false, 50: false, 75: false, 100: false};
+
+  function _send(name, params) {
+    var data = Object.assign({page: _article, site: _site}, params);
+    if (_ga4 && typeof gtag === "function") {
+      gtag("event", name, data);
+    }
+    try {
+      var log = JSON.parse(localStorage.getItem("_ptrack") || "[]");
+      log.push({t: new Date().toISOString(), e: name, d: data});
+      if (log.length > 200) log = log.slice(-200);
+      localStorage.setItem("_ptrack", JSON.stringify(log));
+    } catch(e) {}
+  }
+
+  // Scroll depth
+  function _onScroll() {
+    var scrolled = window.scrollY + window.innerHeight;
+    var total = document.documentElement.scrollHeight;
+    var pct = Math.round((scrolled / total) * 100);
+    [25, 50, 75, 100].forEach(function(mark) {
+      if (!_scrollMarks[mark] && pct >= mark) {
+        _scrollMarks[mark] = true;
+        _send("scroll_depth", {depth: mark});
+      }
+    });
+  }
+  window.addEventListener("scroll", _onScroll, {passive: true});
+
+  // Time on page
+  function _sendTime() {
+    var secs = Math.round((Date.now() - _startTime) / 1000);
+    _send("time_on_page", {seconds: secs});
+  }
+  document.addEventListener("visibilitychange", function() {
+    if (document.hidden) _sendTime();
+  });
+  window.addEventListener("pagehide", _sendTime);
+
+  // Newsletter CTA
+  document.addEventListener("click", function(e) {
+    var btn = e.target.closest("button");
+    if (btn) {
+      var box = btn.closest(".sidebar-newsletter, [class*='newsletter']");
+      if (box) _send("newsletter_click", {label: btn.textContent.trim().slice(0, 40)});
+    }
+    var link = e.target.closest("a[href]");
+    if (link && !link.href.includes(window.location.hostname)) {
+      _send("outbound_click", {url: link.href.slice(0, 100)});
+    }
+  });
+
+  // Pageview
+  _send("article_view", {});
+})();
+</script>
 </body>
 </html>
