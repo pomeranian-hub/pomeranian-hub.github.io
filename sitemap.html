@@ -12,15 +12,15 @@
   a { color: #701a75; text-decoration: none; }
   a:hover { text-decoration: underline; }
   .topbar { background: #701a75; color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.14); }
-  .topbar-inner { max-width: 1040px; margin: 0 auto; padding: 14px 22px; display: flex; justify-content: space-between; gap: 16px; align-items: center; }
+  .topbar-inner { max-width: 1120px; margin: 0 auto; padding: 14px 22px; display: flex; justify-content: space-between; gap: 16px; align-items: center; }
   .brand { color: #fff; font-size: 1.08rem; font-weight: 700; }
   .nav { display: flex; gap: 14px; flex-wrap: wrap; }
   .nav a { color: rgba(255,255,255,0.92); font-size: 0.92rem; }
   .breadcrumb { background: #fff; border-bottom: 1px solid #e5e7eb; }
-  .breadcrumb-inner { max-width: 1040px; margin: 0 auto; padding: 10px 22px 0; color: #6b7280; font-size: 0.88rem; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .breadcrumb-inner { max-width: 1120px; margin: 0 auto; padding: 10px 22px 0; color: #6b7280; font-size: 0.88rem; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
   .breadcrumb a { color: #6b7280; }
   .breadcrumb span[aria-current="page"] { color: #374151; font-weight: 600; }
-  .wrap { max-width: 1040px; margin: 28px auto; padding: 0 22px 40px; }
+  .wrap { max-width: 1120px; margin: 28px auto; padding: 0 22px 40px; }
   .panel { background: #fff; border-radius: 10px; padding: 30px; box-shadow: 0 1px 6px rgba(0,0,0,0.08); }
   h1 { color: #57145b; font-size: 2rem; margin-bottom: 10px; }
   h2 { color: #57145b; font-size: 1.3rem; margin: 24px 0 10px; }
@@ -28,28 +28,112 @@
   ul { padding-left: 20px; margin: 12px 0; }
   .intro { font-size: 1rem; margin-bottom: 18px; }
   .footer { background: #57145b; color: rgba(255,255,255,0.75); margin-top: 32px; }
-  .footer-inner { max-width: 1040px; margin: 0 auto; padding: 18px 22px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .footer-inner { max-width: 1120px; margin: 0 auto; padding: 18px 22px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+</style>
+<style id="sc-font">body{font-family:'Optima', 'Segoe UI', sans-serif}body h1,body h2,body h3{font-family:'Optima', 'Segoe UI', sans-serif}</style>
+<style id="site-chrome">
+:where(body){margin:0}.sc-reset,header.sc-topbar,footer.sc-footer{box-sizing:border-box}
+[class*="wrap"],[class*="inner"],[class*="layout"],[class*="container"]{box-sizing:border-box}
+/* ── Top bar ── */
+  .sc-topbar{
+    background: #701a75;
+    color: #fff;
+    padding: 0 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  }
+.sc-topbar-inner{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 54px;
+  }
+.sc-topbar-brand{
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.01em;
+  }
+.sc-topbar-nav{
+    display: flex;
+    gap: 4px;
+    list-style: none;
+  }
+.sc-topbar-nav a{
+    color: rgba(255,255,255,0.88);
+    font-size: 0.88rem;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background 0.15s;
+  }
+.sc-topbar-nav a:hover{
+    background: rgba(255,255,255,0.15);
+    color: #fff;
+    text-decoration: none;
+  }
+@media(max-width:600px) {
+    .sc-topbar-nav { display: none; }}
+/* ── Footer ── */
+  .sc-footer{
+    background: #59145d;
+    color: rgba(255,255,255,0.75);
+    text-align: center;
+    padding: 24px 16px;
+    font-size: 0.82rem;
+    margin-top: 40px;
+  }
+.sc-footer-nav{ margin-bottom: 8px; }
+.sc-footer-nav a{
+    color: rgba(255,255,255,0.85);
+    margin: 0 10px;
+    font-size: 0.85rem;
+  }
+.sc-topbar a,.sc-footer a{text-decoration:none}
+@media(max-width:700px){header[class^="sc-"] [class*="inner"],header[class^="sc-"]{flex-wrap:wrap;height:auto}header[class^="sc-"] nav,header[class^="sc-"] [class*="nav"]{display:flex;flex-wrap:wrap;gap:6px 14px}header[class^="sc-"] [class*="inner"]{padding-top:8px;padding-bottom:8px}main,article,aside,[class*="wrap"]>*,[class*="layout"]>*,[class*="content"],[class*="column"]{min-width:0!important;max-width:100%}table{display:block!important;width:auto!important;max-width:100%!important;overflow-x:auto}img,iframe,video{max-width:100%;height:auto}h1,h2,h3,p,li{overflow-wrap:anywhere}[class*="wrap"],[class*="layout"],[class*="rich"],[class*="content"]{grid-template-columns:minmax(0,1fr)!important}article *,[class*="content"] *,[class*="rich"] *{box-sizing:border-box!important;max-width:100%!important;min-width:0!important}table{overflow-x:auto!important}}
 </style>
 </head>
 <body>
-<header class="topbar">
-  <div class="topbar-inner">
-    <a class="brand" href="/">Pomeranian Guide</a>
+<header class="sc-topbar">
+  <div class="sc-topbar-inner">
+    <a class="sc-topbar-brand" href="/">Pomeranian Guide</a>
+    <nav>
+      <ul class="sc-topbar-nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="/care.html">Care</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/sitemap.html">Sitemap</a></li>
+      </ul>
+    </nav>
   </div>
 </header>
-<nav class="breadcrumb" aria-label="Breadcrumb"><div class="breadcrumb-inner" style="max-width:1040px;"><a href="/">Home</a><span>›</span><span aria-current="page">Pomeranian Guide Sitemap</span></div></nav>
+
+
+<nav class="breadcrumb" aria-label="Breadcrumb"><div class="breadcrumb-inner" style="max-width:1120px;"><a href="/">Home</a><span>›</span><span aria-current="page">Pomeranian Guide Sitemap</span></div></nav>
 <div class="wrap">
   <section class="panel">
     <h1>Pomeranian Guide Sitemap</h1>
     <p class="intro">Use this page to jump directly to the main pages and current articles on Pomeranian Guide.</p>
-    <h2>Main Pages</h2><ul><li><a href="/">Home</a></li><li><a href="/blog.html">Blog</a></li><li><a href="/care.html">Care</a></li><li><a href="/about.html">About</a></li><li><a href="/contact.html">Contact</a></li><li><a href="/privacy.html">Privacy</a></li><li><a href="/sitemap.xml">XML Sitemap</a></li></ul><h2>Articles</h2><ul><li><a href="/pomeranian-hypoglycemia-puppy-statistics.html">Pomeranian Hypoglycemia Puppy Statistics</a> <span style="color:#6b7280;">(2026-05-26)</span></li><li><a href="/pomeranian-tracheal-collapse-symptoms-age.html">Pomeranian Tracheal Collapse Symptoms Age</a> <span style="color:#6b7280;">(2026-05-25)</span></li></ul>
+    <h2>Main Pages</h2><ul><li><a href="/">Home</a></li><li><a href="/blog.html">Blog</a></li><li><a href="/care.html">Care</a></li><li><a href="/about.html">About</a></li><li><a href="/contact.html">Contact</a></li><li><a href="/privacy.html">Privacy</a></li><li><a href="/disclosure.html">Disclosure</a></li><li><a href="/editorial-policy.html">Editorial policy</a></li></ul><h2>Articles</h2><ul><li><a href="/pomeranian-hypoglycemia-puppy-statistics.html">73% of Pomeranian Puppies at Risk: Hypoglycemia Prevention Guide</a> <span style="color:#6b7280;">(2026-05-27)</span></li><li><a href="/pomeranian-tracheal-collapse-symptoms-age.html">How to Spot Pomeranian Tracheal Collapse</a> <span style="color:#6b7280;">(2026-05-25)</span></li></ul>
   </section>
 </div>
-<footer class="footer">
-  <div class="footer-inner">
-    <p>Pomeranian Guide</p>
-    <p><a href="/privacy.html" style="color:rgba(255,255,255,0.9);">Privacy</a> <span style="opacity:0.55;">|</span> <a href="/contact.html" style="color:rgba(255,255,255,0.9);">Contact</a> <span style="opacity:0.55;">|</span> <a href="/sitemap.html" style="color:rgba(255,255,255,0.9);">Sitemap</a></p>
+
+<footer class="sc-footer">
+  <div class="sc-footer-nav">
+    <a href="/">Home</a>
+    <a href="/blog.html">Blog</a>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+    <a href="/privacy.html">Privacy</a>
+    <a href="/sitemap.html">Sitemap</a>
   </div>
+  <p>&copy; 2026 pomeranian-hub.github.io &mdash; Pomeranian Guide. All rights reserved.</p>
 </footer>
 </body>
 </html>
