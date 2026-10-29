@@ -405,7 +405,7 @@ function render(e){
  else line('That is above the AKC weekly floor and in line with what most owners in the tally do.');
  var lb=pct(baths,bath);
  line('Bathing: a bath every '+bath+' weeks is longer than '+lb+'% of the reported owner intervals (median about 4–5 weeks, range weekly to about every 3 months).');
- if(bath>8&&b>=3)line('Owners with long bath intervals almost all brushed every 1–3 days and spot-cleaned feet, face and rear. With weekly or less brushing, a long interval is unusual in the tally.','warn');
+ if(bath>8&&b>=3)line('In the tally, every owner with a bath interval over 8 weeks brushed at least weekly, and half of them brushed daily or every other day and spot-cleaned in between.','warn');
  if(pro===0)line('Professional groomer: none. 8 owners in the tally said they do most or all grooming at home; the AKC suggests a full groom every 4–6 weeks if you are not comfortable doing it yourself.');
  else{line('Professional groomer: every '+pro+' weeks. Salon routines in the tally had a median of about 7–8 weeks; '+pct(pros,pro)+'% were shorter than yours.');if(pro>6)line('That is longer than the AKC 4–6-week suggestion, which is common among owners who brush and bathe at home.');}
  var tips=[];
