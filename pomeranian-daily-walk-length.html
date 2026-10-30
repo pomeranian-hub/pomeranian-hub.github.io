@@ -8,146 +8,8 @@
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://pomeranian-hub.github.io/pomeranian-daily-walk-length.html">
 <style>
-  * { box-sizing: border-box; }
-  body { margin: 0; font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; background: #f5f7fb; color: #1f2937; line-height: 1.72; }
-  a { color: #701a75; text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  .topbar { background: #701a75; box-shadow: 0 2px 8px rgba(0,0,0,0.14); }
-  .topbar-inner { max-width: 1120px; margin: 0 auto; padding: 0 22px; min-height: 56px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
-  .brand { color: #fff; font-weight: 700; font-size: 1.04rem; }
-  .nav { display: flex; gap: 14px; flex-wrap: wrap; }
-  .nav a { color: rgba(255,255,255,0.92); font-size: 0.9rem; }
-  .hero { background: linear-gradient(135deg, #701a75 0%, #9d174d 100%); color: #fff; }
-  .hero-inner { max-width: 1120px; margin: 0 auto; padding: 34px 22px; }
-  .hero p { margin: 0 0 10px; opacity: 0.86; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.75rem; }
-  .hero h1 { margin: 0 0 10px; font-size: 2.15rem; line-height: 1.12; max-width: 820px; }
-  .hero .lead { margin: 0; max-width: 760px; font-size: 1.02rem; text-transform: none; letter-spacing: 0; opacity: 0.92; }
-  .layout { max-width: 1120px; margin: 28px auto 48px; padding: 0 22px; display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 26px; align-items: start; }
-  .article { background: #fff; border-radius: 14px; padding: 30px; box-shadow: 0 1px 8px rgba(0,0,0,0.08); }
-  .article .meta { color: #6b7280; font-size: 0.9rem; margin-bottom: 18px; padding-bottom: 14px; border-bottom: 1px solid #e5e7eb; }
-  .article h2 { color: #0f172a; font-size: 1.45rem; margin: 34px 0 14px; line-height: 1.24; }
-  .article h3 { color: #701a75; font-size: 1.08rem; margin: 22px 0 10px; }
-  .article p, .article li { color: #374151; }
-  .article ul, .article ol { padding-left: 22px; margin: 12px 0 18px; }
-  .article table { width: 100%; border-collapse: collapse; margin: 20px 0 26px; font-size: 0.95rem; }
-  .article th { text-align: left; background: #eef2ff; color: #0f172a; padding: 12px 14px; border: 1px solid #dbe2ea; }
-  .article td { padding: 12px 14px; border: 1px solid #dbe2ea; vertical-align: top; }
-  .article td a.cite { font-size: 0.78rem; color: #701a75; margin-left: 4px; }
-  .article blockquote { margin: 20px 0; padding: 16px 18px; border-left: 4px solid #701a75; background: #f8fafc; color: #334155; }
-  details { border: 1px solid #e5e7eb; border-radius: 10px; padding: 14px 16px; margin: 10px 0; background: #fafafa; }
-  summary { cursor: pointer; font-weight: 600; color: #0f172a; }
-  .sidebar { display: grid; gap: 18px; position: sticky; top: 18px; }
-  .sidebar-panel { background: #fff; border-radius: 12px; padding: 20px; box-shadow: 0 1px 8px rgba(0,0,0,0.08); }
-  .sidebar-panel h3 { margin: 0 0 10px; color: #0f172a; font-size: 1rem; }
-  .sidebar-panel p, .sidebar-panel li { color: #4b5563; font-size: 0.92rem; }
-  .sidebar-panel ul { margin: 0; padding-left: 18px; }
-  .sidebar-newsletter { background: linear-gradient(135deg, #701a75 0%, #9d174d 100%); }
-  .sidebar-newsletter h3, .sidebar-newsletter p { color: #fff; }
-  .sidebar-newsletter input { width: 100%; padding: 10px 12px; border: 0; border-radius: 6px; margin: 10px 0 8px; }
-  .sidebar-newsletter button { width: 100%; padding: 10px 12px; border: 0; border-radius: 6px; background: #fff; color: #701a75; font-weight: 700; cursor: pointer; }
-  .footer { background: #0f172a; color: rgba(255,255,255,0.74); }
-  .footer-inner { max-width: 1120px; margin: 0 auto; padding: 22px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: 0.87rem; }
-  .footer a { color: rgba(255,255,255,0.9); }
-  @media (max-width: 900px) {
-    .layout { grid-template-columns: 1fr; }
-    .sidebar { position: static; }
-    .hero h1 { font-size: 1.74rem; }
-  }
-  .article-breadcrumb { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0 0 12px; color: #6b7280; font-size: 0.88rem; }
-  .article-breadcrumb a { color: #6b7280; }
-  .article-breadcrumb span[aria-current="page"] { color: #374151; font-weight: 600; }
-</style>
-
-
-<style>
 article a{color:#0066cc}article a:visited{color:#0052a3}article a:hover{text-decoration:underline}.quick-answer,.walk-tool{background:#fdf4ff;border-left:4px solid #701a75;padding:18px;margin:20px 0;border-radius:8px}.walk-tool input,.walk-tool button{font:inherit;padding:8px;margin:6px 0;max-width:100%}.walk-tool button{background:#701a75;color:white;border:0;border-radius:5px;cursor:pointer}.walk-tool h2{margin-top:0}.ai-note{border-left:4px solid #701a75;padding:12px 16px;background:#f7f9fa;font-size:.9rem}.article p{margin:14px 0}.walk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}.walk-grid label{display:flex;flex-direction:column;font-size:.9rem}.walk-grid input{width:100%}#walk-result p{margin:8px 0}#walk-result .bar{height:12px;background:#e5e7eb;border-radius:6px;overflow:hidden;margin:6px 0 12px}#walk-result .bar span{display:block;height:100%;background:#701a75}
-</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "How Long Do Pomeranians Really Walk? Owner Routines vs the 20–50 Minute Advice", "description": "How long do Pomeranians walk? We coded 42 owner routines: median 57.5 min a day vs the 20–50 minute advice. Check your Pom’s routine with our walk checker.", "datePublished": "2026-10-22", "dateModified": "2026-10-22", "author": {"@type": "Organization", "name": "Pomeranian Hub"}, "publisher": {"@type": "Organization", "name": "Pomeranian Hub"}, "mainEntityOfPage": "https://pomeranian-hub.github.io/pomeranian-daily-walk-length.html"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long should I walk my Pomeranian each day?", "acceptedAnswer": {"@type": "Answer", "text": "Published guides suggest roughly 20–50 minutes of daily exercise for a healthy adult, often split into two walks plus play. In our owner sample the median was 57.5 minutes of walking per day, but that is a description of enthusiastic owners, not a requirement."}}, {"@type": "Question", "name": "How many walks a day do Pomeranians usually get?", "acceptedAnswer": {"@type": "Answer", "text": "Most owners in the sample did two or three outings a day. Of 38 routines with a clear count, 14 had about two walks, 13 had about three, 6 had more than three, and 5 had one."}}, {"@type": "Question", "name": "Does indoor play count toward a Pomeranian's exercise?", "acceptedAnswer": {"@type": "Answer", "text": "The guides count it. Pomeranian.org pairs short walks with play at home, PitPat's 50-minute figure includes play sessions, and the AKC profile says Poms can be exercised with indoor play and short walks."}}, {"@type": "Question", "name": "My Pomeranian refuses to walk far. Is that unusual?", "acceptedAnswer": {"@type": "Answer", "text": "Not in these threads. Several owners described Poms who sit down after a block or ask to be carried, while others had dogs who would walk for hours. Owners often reported better results from more interesting routes, sniff time, and cooler times of day."}}, {"@type": "Question", "name": "How long can a Pomeranian walk at once?", "acceptedAnswer": {"@type": "Answer", "text": "Some owners described single walks of an hour or more, and one routine included a two-hour dog-park session. Others kept walks to 10–20 minutes. The sample shows a wide range rather than a single maximum."}}, {"@type": "Question", "name": "Do Pomeranian puppies follow the same walk times?", "acceptedAnswer": {"@type": "Answer", "text": "No. Puppies were excluded from our sample. PitPat uses a rule of thumb of 5 minutes of exercise per month of age, and Pomeranian.org says young Pomeranian puppies do not need long walks or strenuous exercise."}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoObject", "name": "Brain Games for Dogs - Enrichment Sniffy Walk", "description": "Certified dog trainer Sarah (Sarah Certified - Dog Training) demonstrates an enrichment sniffy walk on a long line: benefits of long-line walks, engagement games, managing the trail and leash handling.", "thumbnailUrl": "https://i.ytimg.com/vi/BF3X_rjEK5s/hqdefault.jpg", "uploadDate": "2020-02-06T00:00:00Z", "embedUrl": "https://www.youtube-nocookie.com/embed/BF3X_rjEK5s"}</script><style id="site-chrome">
-:where(body){margin:0}.sc-reset,header.sc-topbar,footer.sc-footer{box-sizing:border-box}
-[class*="wrap"],[class*="inner"],[class*="layout"],[class*="container"]{box-sizing:border-box}
-/* ── Top bar ── */
-  .sc-topbar{
-    background: #701a75;
-    color: #fff;
-    padding: 0 0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-  }
-.sc-topbar-inner{
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 54px;
-  }
-.sc-topbar-brand{
-    font-size: 1.15rem;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 0.01em;
-  }
-.sc-topbar-nav{
-    display: flex;
-    gap: 4px;
-    list-style: none;
-  }
-.sc-topbar-nav a{
-    color: rgba(255,255,255,0.88);
-    font-size: 0.88rem;
-    padding: 6px 12px;
-    border-radius: 4px;
-    transition: background 0.15s;
-  }
-.sc-topbar-nav a:hover{
-    background: rgba(255,255,255,0.15);
-    color: #fff;
-    text-decoration: none;
-  }
-@media(max-width:600px) {
-    .sc-topbar-nav { display: none; }}
-/* ── Footer ── */
-  .sc-footer{
-    background: #59145d;
-    color: rgba(255,255,255,0.75);
-    text-align: center;
-    padding: 24px 16px;
-    font-size: 0.82rem;
-    margin-top: 40px;
-  }
-.sc-footer-nav{ margin-bottom: 8px; }
-.sc-footer-nav a{
-    color: rgba(255,255,255,0.85);
-    margin: 0 10px;
-    font-size: 0.85rem;
-  }
-.sc-topbar a,.sc-footer a{text-decoration:none}
-@media(max-width:700px){header[class^="sc-"] [class*="inner"],header[class^="sc-"]{flex-wrap:wrap;height:auto}header[class^="sc-"] nav,header[class^="sc-"] [class*="nav"]{display:flex;flex-wrap:wrap;gap:6px 14px}header[class^="sc-"] [class*="inner"]{padding-top:8px;padding-bottom:8px}main,article,aside,[class*="wrap"]>*,[class*="layout"]>*,[class*="content"],[class*="column"]{min-width:0!important;max-width:100%}table{display:block!important;width:auto!important;max-width:100%!important;overflow-x:auto}img,iframe,video{max-width:100%;height:auto}h1,h2,h3,p,li{overflow-wrap:anywhere}[class*="wrap"],[class*="layout"],[class*="rich"],[class*="content"]{grid-template-columns:minmax(0,1fr)!important}article *,[class*="content"] *,[class*="rich"] *{box-sizing:border-box!important;max-width:100%!important;min-width:0!important}table{overflow-x:auto!important}}
-</style>
-<style id="sc-font">body{font-family:'Optima', 'Segoe UI', sans-serif}body h1,body h2,body h3{font-family:'Optima', 'Segoe UI', sans-serif}</style>
-
-<style id="sidebar-follow-20261025">
-[data-follow-sidebar]{display:grid!important;gap:16px;position:sticky!important;top:96px!important;align-self:start!important;
-height:fit-content!important;max-height:calc(100dvh - 112px)!important;overflow-y:auto!important;
-min-width:0;overscroll-behavior:contain;scrollbar-width:thin}
-[data-follow-parent]{overflow:visible!important;align-items:start}
-.follow-sidebar-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:32px;
-width:min(1184px,calc(100% - 32px));margin:32px auto;align-items:start}
-[data-follow-content]{width:auto!important;max-width:100%!important;min-width:0;margin:0!important}
-.follow-sidebar-panel{padding:18px;border:1px solid var(--line,#d8d9d0);border-radius:12px;
-background:var(--soft,#f4f5ef);color:var(--ink,#27382d);margin:0 0 16px}
-.follow-sidebar-panel h2{font:700 .85rem/1.4 system-ui;margin:0 0 12px}
-.follow-sidebar-panel ul{list-style:none;margin:0;padding:0}
-.follow-sidebar-panel a{display:block;padding:8px 0;color:inherit;text-decoration:underline;
-overflow-wrap:anywhere;line-height:1.45}
-@media(max-width:900px){[data-follow-sidebar]{position:static!important;top:auto!important;
-max-height:none!important;height:auto!important;overflow:visible!important;width:100%!important;max-width:100%;float:none!important}
-.follow-sidebar-layout{grid-template-columns:minmax(0,1fr);gap:24px}}
-</style>
-
-<!-- social-cards:start -->
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "How Long Do Pomeranians Really Walk? Owner Routines vs the 20–50 Minute Advice", "description": "How long do Pomeranians walk? We coded 42 owner routines: median 57.5 min a day vs the 20–50 minute advice. Check your Pom’s routine with our walk checker.", "datePublished": "2026-10-22", "dateModified": "2026-10-22", "author": {"@type": "Organization", "name": "Pomeranian Hub"}, "publisher": {"@type": "Organization", "name": "Pomeranian Hub"}, "mainEntityOfPage": "https://pomeranian-hub.github.io/pomeranian-daily-walk-length.html"}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long should I walk my Pomeranian each day?", "acceptedAnswer": {"@type": "Answer", "text": "Published guides suggest roughly 20–50 minutes of daily exercise for a healthy adult, often split into two walks plus play. In our owner sample the median was 57.5 minutes of walking per day, but that is a description of enthusiastic owners, not a requirement."}}, {"@type": "Question", "name": "How many walks a day do Pomeranians usually get?", "acceptedAnswer": {"@type": "Answer", "text": "Most owners in the sample did two or three outings a day. Of 38 routines with a clear count, 14 had about two walks, 13 had about three, 6 had more than three, and 5 had one."}}, {"@type": "Question", "name": "Does indoor play count toward a Pomeranian's exercise?", "acceptedAnswer": {"@type": "Answer", "text": "The guides count it. Pomeranian.org pairs short walks with play at home, PitPat's 50-minute figure includes play sessions, and the AKC profile says Poms can be exercised with indoor play and short walks."}}, {"@type": "Question", "name": "My Pomeranian refuses to walk far. Is that unusual?", "acceptedAnswer": {"@type": "Answer", "text": "Not in these threads. Several owners described Poms who sit down after a block or ask to be carried, while others had dogs who would walk for hours. Owners often reported better results from more interesting routes, sniff time, and cooler times of day."}}, {"@type": "Question", "name": "How long can a Pomeranian walk at once?", "acceptedAnswer": {"@type": "Answer", "text": "Some owners described single walks of an hour or more, and one routine included a two-hour dog-park session. Others kept walks to 10–20 minutes. The sample shows a wide range rather than a single maximum."}}, {"@type": "Question", "name": "Do Pomeranian puppies follow the same walk times?", "acceptedAnswer": {"@type": "Answer", "text": "No. Puppies were excluded from our sample. PitPat uses a rule of thumb of 5 minutes of exercise per month of age, and Pomeranian.org says young Pomeranian puppies do not need long walks or strenuous exercise."}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoObject", "name": "Brain Games for Dogs - Enrichment Sniffy Walk", "description": "Certified dog trainer Sarah (Sarah Certified - Dog Training) demonstrates an enrichment sniffy walk on a long line: benefits of long-line walks, engagement games, managing the trail and leash handling.", "thumbnailUrl": "https://i.ytimg.com/vi/BF3X_rjEK5s/hqdefault.jpg", "uploadDate": "2020-02-06T00:00:00Z", "embedUrl": "https://www.youtube-nocookie.com/embed/BF3X_rjEK5s"}</script><!-- social-cards:start -->
 <meta property="og:title" content="How Long Do Pomeranians Walk? 42 Owner Routines Compared">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://pomeranian-hub.github.io/pomeranian-daily-walk-length.html">
@@ -165,27 +27,174 @@ max-height:none!important;height:auto!important;overflow:visible!important;width
 <meta name="twitter:image:alt" content="orange Pomeranian sitting on a soft rug in a bright living room">
 <!-- social-cards:end -->
 <style>.hero-inner.with-photo{display:grid;grid-template-columns:minmax(0,1fr) 300px;column-gap:48px;grid-template-rows:auto auto 1fr;align-items:start}.hero-inner.with-photo>*{grid-column:1}.hero-inner.with-photo>.hero-photo{grid-column:2;grid-row:1/span 3;margin:0;align-self:center}.hero-photo img{display:block;width:100%;height:auto;border-radius:8px}.hero-photo figcaption{font-size:11px;color:inherit;opacity:.75;margin-top:4px}@media(max-width:860px){.hero-inner.with-photo{display:block}.hero-photo{display:none}}</style>
+<link rel="preload" href="/assets/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+<style id="pg-ds">
+@font-face{font-family:"Bricolage Grotesque";font-style:normal;font-weight:600 800;font-display:swap;src:url(/assets/bricolage-grotesque-latin.woff2) format("woff2")}
+:root{--ink:#1c1520;--text:#2a2430;--muted:#5c5363;--line:#eadfd6;--soft:#fbf5ee;--paper:#fff;--accent:#ffb547;--accent-dk:#f29f1f;--accent-ink:#8a4a00;--plum:#701a75;--link:#0066cc;
+--display:"Bricolage Grotesque","Arial Narrow",system-ui,sans-serif;--body:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--r:14px;--wrap:1180px}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--body);font-size:18px;line-height:1.65;color:var(--text);background:var(--paper)}
+a{color:var(--link)}a:visited{color:#0052a3}
+h1,h2,h3{font-family:var(--display);color:var(--ink);line-height:1.12;letter-spacing:-.01em}
+img{max-width:100%;height:auto}
+.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:12px;z-index:9;background:#fff;padding:10px 14px}
+.label{margin:0 0 14px;font:700 12px/1.4 var(--body);letter-spacing:.09em;text-transform:uppercase;color:var(--accent-ink)}
+.label b{color:var(--ink)}
+.btn,.btn:visited{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;border-radius:10px;background:var(--accent);color:var(--ink);font:700 16px/1 var(--body);text-decoration:none;transition:background .15s,transform .15s}
+.btn:hover{background:var(--accent-dk);transform:translateY(-1px)}
+.btn.dark,.btn.dark:visited{background:var(--ink);color:#fff}.btn.dark:hover{background:#000}
+.arrow,.arrow:visited{color:var(--ink);font-weight:700;text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:3px;text-underline-offset:5px}
+.arrow:hover{text-decoration-color:var(--ink)}
+.arrow::after,.btn::after{content:"\2197";font-weight:700}
+.btn.down::after{content:"\2193"}
+/* header */
+.sc-topbar{background:var(--ink);position:sticky;top:0;z-index:50}
+.sc-topbar-inner{max-width:var(--wrap);margin:0 auto;padding:0 24px;min-height:64px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.sc-topbar-brand,.sc-topbar-brand:visited{color:#fff!important;text-decoration:none;font:800 21px/1 var(--display);letter-spacing:-.01em;text-transform:uppercase}
+.sc-topbar-brand span{color:var(--accent)}
+.sc-topbar-nav{list-style:none;margin:0;padding:0;display:flex;gap:2px}
+.sc-topbar-nav a,.sc-topbar-nav a:visited{display:block;padding:10px 12px;border-radius:8px;color:#e9e1ec;text-decoration:none;font-size:15px;font-weight:600}
+.sc-topbar-nav a:hover,.sc-topbar-nav a[aria-current]{color:#fff;background:rgba(255,255,255,.1)}
+.sc-topbar-nav .cta a{background:var(--accent);color:var(--ink)}.sc-topbar-nav .cta a:hover{background:var(--accent-dk)}
+.mnav{display:none}
+@media(max-width:860px){.sc-topbar-nav{display:none}.mnav{display:block;position:relative}
+.mnav summary{list-style:none;cursor:pointer;min-height:44px;display:flex;align-items:center;gap:8px;padding:0 14px;border-radius:10px;background:var(--accent);color:var(--ink);font-weight:700;font-size:15px}
+.mnav summary::-webkit-details-marker{display:none}.mnav[open] summary{background:#fff}
+.mnav-panel{position:absolute;right:0;top:52px;width:min(320px,calc(100vw - 32px));background:#fff;border-radius:var(--r);box-shadow:0 18px 40px rgba(0,0,0,.25);padding:10px}
+.mnav-panel a,.mnav-panel a:visited{display:flex;justify-content:space-between;align-items:center;padding:14px 12px;border-radius:10px;color:var(--ink);text-decoration:none;font:700 19px/1.2 var(--display)}
+.mnav-panel a::after{content:"\2192";color:var(--accent-ink)}
+.mnav-panel a:hover{background:var(--soft)}
+.mnav-panel .small{display:flex;flex-wrap:wrap;gap:4px 14px;border-top:1px solid var(--line);margin-top:6px;padding:12px}
+.mnav-panel .small a{display:inline;padding:4px 0;font:600 15px/1.4 var(--body);color:var(--muted)}.mnav-panel .small a::after{content:none}}
+/* footer */
+.sc-footer{background:var(--ink);color:#cfc5d4;font-size:15px}
+.sc-footer-inner{max-width:var(--wrap);margin:0 auto;padding:40px 24px;display:flex;flex-wrap:wrap;gap:16px 32px;justify-content:space-between;align-items:center}
+.sc-footer-nav{display:flex;flex-wrap:wrap;gap:6px 20px}
+.sc-footer a,.sc-footer a:visited{color:#fff}.sc-footer p{margin:0;max-width:560px}
+.sc-footer .sc-topbar-brand{font-size:18px}
+/* sections */
+.sec{max-width:var(--wrap);margin:0 auto;padding:72px 24px}
+.sec h2{font-size:clamp(30px,3.6vw,44px);margin:0 0 14px;text-transform:uppercase;font-weight:800}
+.sec-lead{margin:0 0 32px;max-width:640px;color:var(--muted);font-size:19px}
+.band{background:var(--soft)}
+.hero-home{max-width:var(--wrap);margin:0 auto;padding:64px 24px 56px;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:48px;align-items:center}
+.hero-home h1{margin:0 0 22px;font-size:clamp(44px,6.4vw,84px);line-height:.95;font-weight:800;text-transform:uppercase}
+.hero-home h1 em{font-style:normal;color:var(--plum)}
+.hero-home .lead{margin:0 0 30px;max-width:560px;font-size:20px;color:var(--muted)}
+.hero-actions{display:flex;flex-wrap:wrap;gap:18px 26px;align-items:center}
+.portrait{position:relative;margin:0;justify-self:center;width:min(400px,100%)}
+.portrait img{display:block;width:100%;aspect-ratio:1;object-fit:cover;border-radius:50%}
+.portrait figcaption{position:absolute;left:50%;bottom:8%;transform:translateX(-50%) rotate(-3deg);background:var(--accent);color:var(--ink);font:700 12px/1 var(--body);letter-spacing:.06em;text-transform:uppercase;padding:9px 14px;border-radius:6px;white-space:nowrap;box-shadow:0 6px 16px rgba(0,0,0,.15)}
+.paths{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.path{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:12px}
+.path svg{width:48px;height:48px;stroke:var(--plum);stroke-width:2.2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.path h3{margin:4px 0 0;font-size:26px;font-weight:800}
+.path p{margin:0;color:var(--muted)}
+.path ul{margin:4px 0 8px;padding:0;list-style:none;display:grid;gap:8px;font-size:16px}
+.path li a{text-decoration:none}.path li a:hover{text-decoration:underline}
+.path .arrow{margin-top:auto;align-self:flex-start}
+.nums{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;border-top:2px solid var(--ink);padding-top:28px}
+.num b{display:block;font:800 clamp(46px,5vw,64px)/1 var(--display);color:var(--ink)}
+.num b small{font-size:.42em;margin-left:4px;color:var(--plum)}
+.num p{margin:12px 0 10px;font-size:16px;color:var(--muted)}
+.num a{font-size:15px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
+.card{position:relative;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px;display:flex;flex-direction:column;gap:8px;transition:border-color .15s,transform .15s}
+.card:hover{border-color:var(--ink);transform:translateY(-1px)}
+.card[hidden]{display:none}
+.card .kicker{margin:0;font:700 12px/1.4 var(--body);letter-spacing:.09em;text-transform:uppercase;color:var(--accent-ink)}
+.card h2,.card h3{margin:0;font-size:23px;line-height:1.2;font-weight:700;text-transform:none}
+.card h2 a,.card h3 a,.card h2 a:visited,.card h3 a:visited{color:var(--ink);text-decoration:none}
+.card h2 a::after,.card h3 a::after{content:"";position:absolute;inset:0;border-radius:var(--r)}
+.card p{margin:0;font-size:16px;color:var(--muted)}
+.card .card-date{font-size:14px}
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;counter-reset:s;margin:0;padding:0;list-style:none}
+.steps li{counter-increment:s;border-top:2px solid var(--ink);padding-top:18px}
+.steps li::before{content:"0" counter(s);font:800 15px/1 var(--display);color:var(--plum)}
+.steps h3{margin:10px 0 8px;font-size:24px;font-weight:800;text-transform:uppercase}
+.steps p{margin:0;color:var(--muted);font-size:16px}
+.trust{margin:32px 0 0;padding:18px 22px;border-left:4px solid var(--accent);background:var(--soft);border-radius:0 var(--r) var(--r) 0;font-size:16px;color:var(--muted)}
+.closing{background:var(--ink);color:#e9e1ec}
+.closing .sec{display:flex;flex-wrap:wrap;gap:24px 48px;align-items:center;justify-content:space-between;padding-top:64px;padding-bottom:64px}
+.closing h2{color:#fff;margin:0 0 12px}.closing p{margin:0;max-width:560px}
+.checks{display:flex;flex-wrap:wrap;gap:8px 22px;margin:16px 0 0;padding:0;list-style:none;font-size:15px;font-weight:600}
+.checks li::before{content:"\2713";color:var(--accent);margin-right:8px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 28px}
+.chips button{min-height:44px;padding:0 18px;border-radius:999px;border:2px solid var(--line);background:#fff;color:var(--ink);font:600 15px/1 var(--body);cursor:pointer}
+.chips button:hover{border-color:var(--ink)}
+.chips button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:#fff}
+/* article pages */
+.hero{background:var(--soft);border-bottom:1px solid var(--line)}
+.hero-inner{max-width:var(--wrap);margin:0 auto;padding:48px 24px 40px}
+.hero .kicker,.hero-inner>p:first-child{margin:0 0 14px;font:700 12px/1.4 var(--body);letter-spacing:.09em;text-transform:uppercase;color:var(--accent-ink)}
+.hero h1{margin:0 0 16px;font-size:clamp(32px,4.4vw,52px);line-height:1.05;font-weight:800;max-width:860px}
+.hero .lead{margin:0;font-size:20px;color:var(--muted);max-width:720px}
+.hero-inner.with-photo{display:grid;grid-template-columns:minmax(0,1fr) 260px;column-gap:48px;align-items:center}
+.hero-inner.with-photo>*{grid-column:1}
+.hero-inner.with-photo>.hero-photo{grid-column:2;grid-row:1/span 3;margin:0;position:relative}
+.hero-photo img{display:block;width:100%;aspect-ratio:1;object-fit:cover;border-radius:50%}
+.hero-photo figcaption{position:absolute;left:50%;bottom:4%;transform:translateX(-50%) rotate(-3deg);background:var(--accent);color:var(--ink);font:700 11px/1 var(--body);letter-spacing:.06em;text-transform:uppercase;padding:8px 12px;border-radius:6px;white-space:nowrap;opacity:1;margin:0}
+.layout{max-width:var(--wrap);margin:0 auto;padding:40px 24px 72px;display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:56px;align-items:start}
+.article{min-width:0;max-width:760px;background:none;box-shadow:none;padding:0;border-radius:0}
+.article a{color:#0066cc}.article a:visited{color:#0052a3}.article a:hover{text-decoration:underline}
+.article h2{font-size:clamp(26px,2.6vw,32px);margin:48px 0 14px;line-height:1.15;scroll-margin-top:84px}
+.article h3{font-size:22px;margin:30px 0 10px}
+.article p{margin:0 0 18px}
+.article ul,.article ol{padding-left:24px}
+.article table{width:100%;border-collapse:collapse;margin:24px 0;font-size:16px;display:block;overflow-x:auto}
+.article th{text-align:left;background:var(--soft);color:var(--ink);padding:12px 14px;border:1px solid var(--line)}
+.article td{padding:12px 14px;border:1px solid var(--line);vertical-align:top}
+.article caption{text-align:left;font-weight:700;color:var(--ink);padding:0 0 8px}
+.article .quick-answer{background:var(--soft);border:0;border-left:4px solid var(--accent);border-radius:0 var(--r) var(--r) 0;padding:20px 22px;margin:0 0 28px}
+.article details{border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:10px 0}
+.article summary{cursor:pointer;font-weight:700;color:var(--ink)}
+.article iframe{max-width:100%;border:0;border-radius:var(--r)}
+.article .ai-note{border-left:4px solid var(--plum);background:var(--soft);padding:14px 18px;font-size:15px;color:var(--muted);border-radius:0 var(--r) var(--r) 0}
+.article-breadcrumb,.breadcrumb{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:14px;color:var(--muted);margin:0 0 18px}
+.article-breadcrumb a,.breadcrumb a{color:var(--muted)}
+.sidebar{position:sticky;top:84px;display:grid;gap:16px;max-height:calc(100vh - 100px);overflow:auto}
+.sb-panel{border:1px solid var(--line);border-radius:var(--r);padding:20px 22px;background:#fff;font-size:15px}
+.sb-panel h3,.sb-panel h4{margin:0 0 12px;font:700 12px/1.4 var(--body);letter-spacing:.09em;text-transform:uppercase;color:var(--accent-ink)}
+.sb-panel p{margin:0;color:var(--muted)}
+.sb-panel ol,.sb-panel ul{list-style:none;margin:0;padding:0}
+.sb-panel li a{display:block;padding:6px 0;line-height:1.4;text-decoration:none;color:var(--ink)}
+.sb-panel li a:hover{text-decoration:underline}
+.sb-panel.paths-mini li a{font-weight:700}.sb-panel.paths-mini li a::after{content:" \2192";color:var(--accent-ink)}
+/* static pages */
+.breadcrumb{max-width:var(--wrap);margin:0 auto;padding:24px 24px 0}
+.breadcrumb-inner{display:flex;flex-wrap:wrap;gap:8px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px 64px}
+.follow-sidebar-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:48px;margin:24px 0 0;align-items:start}
+.panel{min-width:0;max-width:760px}
+.panel h1{font-size:clamp(34px,4vw,48px);margin:0 0 18px;font-weight:800;text-transform:uppercase}
+.panel h2{font-size:26px;margin:36px 0 12px}
+.follow-sidebar-panel{border:1px solid var(--line);border-radius:var(--r);padding:20px 22px;background:#fff;font-size:15px}
+.follow-sidebar-panel h2{margin:0 0 12px;font:700 12px/1.4 var(--body);letter-spacing:.09em;text-transform:uppercase;color:var(--accent-ink)}
+.follow-sidebar-panel ul{list-style:none;margin:0;padding:0}.follow-sidebar-panel a{display:block;padding:6px 0;color:var(--ink)}
+[data-follow-sidebar]{position:sticky;top:84px}
+/* breakpoints: wide laptops, tablets, phones */
+@media(min-width:1025px) and (max-width:1439px){:root{--wrap:1080px}.hero-home h1{font-size:clamp(44px,5.6vw,76px)}}
+@media(max-width:1024px){.paths{grid-template-columns:1fr 1fr}.nums,.steps{grid-template-columns:1fr 1fr}.layout{gap:36px;grid-template-columns:minmax(0,1fr) 260px}}
+@media(max-width:860px){.hero-home{grid-template-columns:1fr;padding-top:40px;gap:32px}.portrait{width:min(300px,80%);grid-row:1}
+.layout,.follow-sidebar-layout{grid-template-columns:1fr}.sidebar,[data-follow-sidebar]{position:static;max-height:none}
+.hero-inner.with-photo{display:block}.hero-photo{display:none}.sec{padding:52px 20px}}
+@media(max-width:600px){body{font-size:17px}.paths,.nums,.steps{grid-template-columns:1fr}.sc-topbar-inner,.hero-inner,.layout,.wrap,.breadcrumb{padding-left:16px;padding-right:16px}
+.sec,.hero-home{padding-left:16px;padding-right:16px}.btn{width:100%;justify-content:center;max-width:360px}.hero-home .lead{font-size:18px}}
+</style>
 </head>
 <body>
+<a class="skip" href="#content">Skip to content</a>
 <header class="sc-topbar">
   <div class="sc-topbar-inner">
-    <a class="sc-topbar-brand" href="/">Pomeranian Guide</a>
-    <nav>
-      <ul class="sc-topbar-nav">
-        <li><a href="/">Home</a></li>
-        <li><a href="/blog.html">Blog</a></li>
-        <li><a href="/care.html">Care</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/contact.html">Contact</a></li>
-        <li><a href="/sitemap.html">Sitemap</a></li>
-      </ul>
-    </nav>
+    <a class="sc-topbar-brand" href="/">Pomeranian Guide<span>.</span></a>
+    <nav aria-label="Main"><ul class="sc-topbar-nav"><li class="cta"><a href="/blog.html" aria-current="page">All guides</a></li><li><a href="/blog.html#food">Food & weight</a></li><li><a href="/blog.html#coat">Coat & grooming</a></li><li><a href="/blog.html#walks">Walks & harness</a></li><li><a href="/about.html">About</a></li></ul></nav>
+    <details class="mnav"><summary>Menu</summary><nav class="mnav-panel" aria-label="Mobile"><a href="/blog.html">All guides</a><a href="/blog.html#food">Food & weight</a><a href="/blog.html#coat">Coat & grooming</a><a href="/blog.html#walks">Walks & harness</a><div class="small"><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/editorial-policy.html">How we work</a><a href="/sitemap.html">Sitemap</a></div></nav></details>
   </div>
 </header>
 
-<section class="hero"><div class="hero-inner with-photo"><p>Pomeranian owner notes</p><h1>How Long Do Pomeranians Really Walk? Owner Routines vs the 20–50 Minute Advice</h1><p class="lead">We coded 42 daily walk routines that Pomeranian owners described in their own words, then set them next to the published exercise advice.</p>
+<section class="hero"><div class="hero-inner with-photo"><p class="kicker">Walks & harness</p><h1>How Long Do Pomeranians Really Walk? Owner Routines vs the 20–50 Minute Advice</h1><p class="lead">We coded 42 daily walk routines that Pomeranian owners described in their own words, then set them next to the published exercise advice.</p>
     <figure class="hero-photo"><img src="/assets/home-editorial-20261025.webp" alt="orange Pomeranian sitting on a soft rug in a bright living room - AI-generated illustration" width="1536" height="1024" loading="lazy" decoding="async"><figcaption>AI-generated illustration.</figcaption></figure>
-  </div></section><div class="layout" data-follow-parent="true"><article class="article"><nav class="article-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/blog.html">Blog</a><span>›</span><span aria-current="page">Daily walk routines</span></nav><p>Ask the internet how long Pomeranians walk each day and you will get a tidy number somewhere between 20 and 50 minutes. Ask actual Pom owners and you get "two 20-minute laps", "an hour, minimum, three times a day", and "five minutes, then he sits down and files a complaint". We counted those answers so you don't have to scroll through a hundred comments with a fluffy orange dog glaring at you.</p>
+  </div></section><div class="layout" id="content" data-follow-parent="true"><article class="article"><nav class="article-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><a href="/blog.html">Blog</a><span>›</span><span aria-current="page">Daily walk routines</span></nav><p>Ask the internet how long Pomeranians walk each day and you will get a tidy number somewhere between 20 and 50 minutes. Ask actual Pom owners and you get "two 20-minute laps", "an hour, minimum, three times a day", and "five minutes, then he sits down and files a complaint". We counted those answers so you don't have to scroll through a hundred comments with a fluffy orange dog glaring at you.</p>
 <div class="quick-answer"><strong>Quick answer:</strong> Published guides usually suggest about 20–50 minutes of daily exercise for an adult Pomeranian. In the 42 owner-described daily routines we could code from two 2026 r/Pomeranians discussions, the median was 57.5 minutes of walking per day, the middle half fell between 40 and 78.75 minutes, and the typical Pom got two to three outings. These are self-reported habits, not a target, and some of the advice figures include play, not just walks.</div>
 <section class="walk-tool" aria-labelledby="walk-tool-title">
 <h2 id="walk-tool-title">Check your Pom's walk routine against owners and advice</h2>
@@ -206,13 +215,13 @@ max-height:none!important;height:auto!important;overflow:visible!important;width
 </section>
 <p>Before the numbers, a quick reality check on what a "walk" means to a Pomeranian. For a lot of Poms the point is not distance; it is reading every message left on every fence post in the neighborhood. In this sniffy-walk demonstration from certified trainer Sarah of the Sarah Certified channel, you will see how a long line, engagement games, and leash handling turn a slow, smelly stroll into a walk that actually tires a dog out.</p>
 <div style="position:relative;width:100%;aspect-ratio:16/9"><iframe src="https://www.youtube-nocookie.com/embed/BF3X_rjEK5s" loading="lazy" title="Brain Games for Dogs - Enrichment Sniffy Walk (Sarah Certified)" style="position:absolute;inset:0;width:100%;height:100%;border:0" allowfullscreen></iframe></div>
-<h2>How long should a Pomeranian walk according to the guides?</h2>
+<h2 id="how-long-should-a-pomeranian-walk-according-to-the-guides">How long should a Pomeranian walk according to the guides?</h2>
 <p>The published advice clusters around 20–30 minutes for the cautious sources and stretches to about 50 minutes for the generous ones. The catch is that most of these figures describe total exercise, so indoor play and fetch are allowed to count.</p>
 <p>The breed-focused site Pomeranian.org says that <a href="https://pomeranian.org/blog/2021/09/16/exercise/">most healthy adult Pomeranians need approximately 30 minutes of exercise each day</a>, usually split into shorter sessions, and suggests one or two daily walks of about 15 to 20 minutes each, plus play at home. At the top of the range, the dog-activity-tracker brand PitPat states that <a href="https://www.pitpat.com/exercise/how-much-exercise-does-my-pomeranian-need/">an adult Pomeranian needs, on average, about 50 minutes of exercise per day</a>, broken into walks and play sessions. The page does not explain where the 50 comes from, which is worth knowing before you treat it as a law of physics.</p>
 <p>The <a href="https://www.akc.org/dog-breeds/pomeranian/">AKC breed profile</a> does not give a minute count at all. It says Poms are active but "can be exercised with indoor play and short walks", which is the kennel-club equivalent of a shrug and a smile.</p>
 <h3>Why the advice disagrees with itself</h3>
 <p>The different numbers are not really contradictions; they answer slightly different questions. "Exercise" can mean leash walking only, or walking plus zoomies around the living room. "Healthy adult" excludes puppies and seniors, who get their own rules (PitPat, for example, uses a rule of thumb of 5 minutes per month of age for puppies). And none of these pages claims to describe what owners actually do. That is the gap our owner sample tries to fill.</p>
-<h2>How long do Pomeranian owners actually walk their dogs?</h2>
+<h2 id="how-long-do-pomeranian-owners-actually-walk-their-dogs">How long do Pomeranian owners actually walk their dogs?</h2>
 <p>In our coded sample, the typical routine was close to an hour a day. The median daily walking time was 57.5 minutes and the mean was 65.74 minutes, with routines ranging from 10 to 180 minutes per day.</p>
 <p>We built the sample from two r/Pomeranians threads: the February 24, 2026 discussion <a href="https://www.reddit.com/r/Pomeranians/comments/1rdc5d7/how_often_and_how_long_are_your_pom_walks/">"How often and how long are your Pom walks?"</a> and the June 18, 2026 follow-up <a href="https://www.reddit.com/r/Pomeranians/comments/1u9b2si/how_oftenlong_are_we_walking_our_poms_if_at_all/">"How often/long are we walking our poms? if at all"</a>. From 104 retrieved top-level comments, 42 described a normal day clearly enough to turn into minutes. The method section below lists exactly what we left out and why.</p>
 <table><caption>Daily walking time in 42 owner-described Pomeranian routines</caption><thead><tr><th scope="col">Daily walking time</th><th scope="col">Routines</th><th scope="col">Share of sample</th><th scope="col">How it compares with the advice</th></tr></thead><tbody>
@@ -225,7 +234,7 @@ max-height:none!important;height:auto!important;overflow:visible!important;width
 <h3>Median, quartiles, and one very enthusiastic Pom</h3>
 <p>The quartiles were 40 minutes (25th percentile), 57.5 minutes (median), and 78.75 minutes (75th percentile). The longest routine, at least an hour three times a day, was 180 minutes. Removing that single routine moves the median from 57.5 to 55 minutes and the mean from 65.74 to 62.96 minutes, so the overall picture does not depend on one marathon dog.</p>
 <p>The two threads did not look identical. The February thread, which asked owners directly about frequency and length, had a median of 66.25 minutes across 28 routines. The June thread, where many replies were addressed to an owner whose dog tired quickly, had a median of 45 minutes across 14 routines. People answering that kind of post may simply have different dogs, which is a reminder that who asks the question shapes who answers.</p>
-<h2>How many walks a day do Pomeranians get?</h2>
+<h2 id="how-many-walks-a-day-do-pomeranians-get">How many walks a day do Pomeranians get?</h2>
 <p>Most owners split the day into two or three outings. Of the 38 routines that stated a clear number of walks, 14 had about two a day, 13 had about three, 6 had more than three, and 5 relied on a single walk.</p>
 <p>The median was 2.25 walks per day and the mean 2.49, because ranges such as "2–3 times a day" were coded at their midpoint. A common pattern was one longer "proper" walk plus one or two short potty patrols. One owner described three 10–15 minute "neighborhood patrol" walks and two 30–60 minute walks; another did 20 minutes in the morning, 45 in the late afternoon, and a final 10-minute lap before bed.</p>
 <h3>Typical routine shapes from the threads</h3>
@@ -236,63 +245,48 @@ max-height:none!important;height:auto!important;overflow:visible!important;width
 <tr><td>Morning sniff, evening proper walk</td><td>"20 minute nature ramble" plus "45-60 minutes proper walk"</td><td>72.5 min</td></tr>
 <tr><td>Minimal but honest</td><td>"5 minutes in the morning and 5 right before bed"</td><td>10 min</td></tr>
 </tbody></table>
-<h2>Why do some Poms walk an hour and others quit after a block?</h2>
+<h2 id="why-do-some-poms-walk-an-hour-and-others-quit-after-a-block">Why do some Poms walk an hour and others quit after a block?</h2>
 <p>Owners mostly explained the difference by personality, weather, and how interesting the walk is. Several described dogs who stall on a "boring" route but run happily on a beach, a trail, or a dog-park loop.</p>
 <p>Personality came up constantly. One owner had two Poms on the same mile-long route: one does the route two or three times a day, the other "only walks about a block each time before he's over it". Another described a Pom who "will stop half way and sit down" and wants to be carried, so the household swapped some walking for fetch and yard zoomies. Meanwhile, at the other end of the leash, one Pom was said to be "OBSESSED with walks" and happy after two hours at the dog park. Same breed, very different job descriptions.</p>
 <h3>Weather shapes the minutes more than the guides admit</h3>
 <p>Weather was the most common reason owners gave for changing the routine. A Florida owner kept walks to 10–15 minutes two or three times a day during a hot spell; another switched from 20 minutes twice a day in very cold weather to 45 minutes twice a day when it improved. Several described shorter winter walks because of cold toes, snow, or wind, and longer summer evening walks when it stays light. Pomeranian.org likewise suggests walking in the cooler early morning or evening during warm weather.</p>
 <h3>The "sniffari" effect</h3>
 <p>Many owners talked about walks as smelling sessions rather than distance. Words like "sniffari", "peemails", and "neighborhood patrol" kept appearing. That matters for interpreting the minutes: a 40-minute sniff-heavy stroll may cover less ground than a 20-minute brisk loop, but owners repeatedly described the sniffy version as the one that leaves their Pom ready for a long nap.</p>
-<h2>Is the 20–50 minute advice wrong, then?</h2>
+<h2 id="is-the-20-50-minute-advice-wrong-then">Is the 20–50 minute advice wrong, then?</h2>
 <p>No. The advice is a rough starting point for a healthy adult, while our sample describes what a self-selected group of enthusiastic owners chose to do. Both can be true at once.</p>
 <p>A forum sample tilts toward owners who like talking about walks. Someone who walks their Pom for 90 minutes a day may be more eager to reply than someone who manages a quick lap. Pomeranian.org's 30-minute figure and PitPat's 50-minute figure are not refuted by owners doing more; they are simply not designed to describe the crowd. The fair reading is narrower: many owners who talk about it online walk their Poms longer than the guides suggest, and their dogs are described as happy with it.</p>
 <h3>What the advice and the owners agree on</h3>
 <ul><li><strong>Split it up.</strong> The guides recommend shorter sessions, and owners overwhelmingly split the day into two or three outings.</li><li><strong>Play counts.</strong> Guides count indoor play as exercise; owners whose Poms dislike walking often filled the gap with fetch and yard time.</li><li><strong>Let the dog's interest lead.</strong> Owners described stopping or carrying when the dog plainly signaled "done", and lengthening walks for dogs who kept sniffing and exploring.</li></ul>
-<h2>How we coded the owner reports</h2>
+<h2 id="how-we-coded-the-owner-reports">How we coded the owner reports</h2>
 <p>We counted one daily routine per comment, converted every stated duration to minutes, and kept only comments where every walk in a normal day had a duration. Everything else was excluded rather than guessed.</p>
 <h3>Inclusion and exclusion rules</h3>
 <ul><li><strong>Included:</strong> comments describing the owner's own current routine, with a number of walks (or "a day") and a duration for each walk. Weekday routines were used when weekends were described separately.</li><li><strong>Ranges:</strong> a stated range was coded at its midpoint, so "15–20 minutes twice a day" became 35 minutes. "2–3 walks" became 2.5. When an owner gave two alternatives, such as a cold-weather and a warm-weather routine, we used the midpoint of the two daily totals.</li><li><strong>Lower bounds:</strong> "at least" or "minimum" values were coded at the stated number, so those routines are, if anything, undercounted.</li><li><strong>Excluded:</strong> distance-only reports (miles, kilometers, steps), "every other day" or "a couple of times a week" routines, walks with an unspecified length, puppies under a year, explicitly mixed breeds, routines described as limited by a medical condition, past routines of dogs no longer alive, general advice, and photo-only replies.</li></ul>
 <h3>Scope limits you should know</h3>
 <p>The retrieval returned 49 top-level comments from the June thread and 55 from the February thread, fewer than the threads' full comment counts; nested replies were not included. A comment describing two dogs counted as one household routine. We did not verify breed, age, or timing, and one routine can reflect the owner's schedule as much as the dog's preference. Like our earlier look at <a href="/pomeranian-adult-weight.html">owner-reported Pomeranian adult weights</a>, this is a transparent description of one group's answers, not a breed census.</p>
-<h2>Step-by-step: build a walk routine that fits your Pom</h2>
+<h2 id="step-by-step-build-a-walk-routine-that-fits-your-pom">Step-by-step: build a walk routine that fits your Pom</h2>
 <p>Use the advice as a floor, use the owner data as a reality check, and let your own dog's behavior decide the rest. Here is a practical way to set it up without turning your morning into a spreadsheet.</p>
 <ol><li><strong>Log one ordinary week.</strong> Write down each outing and its length in minutes, including potty trips. Most people underestimate short walks and overestimate long ones.</li><li><strong>Plug it into the checker above.</strong> See where your routine lands against the 20–50 minute advice band and the 42 owner routines.</li><li><strong>Pick a shape, not just a number.</strong> Two equal walks, or one longer sniff walk plus short potty laps, were the most common patterns in the threads.</li><li><strong>Make one walk interesting.</strong> Change routes, add a park, grass, or trail section, and allow sniff time. Owners of "lazy" Poms often reported that novelty did more than extra minutes.</li><li><strong>Adjust for weather.</strong> Shift walks to cooler parts of the day in summer and accept shorter, more frequent outings when it is bitter or wet.</li><li><strong>Watch the "done" signals.</strong> Sitting down, turning for home, or asking to be picked up were the cues owners described. End the walk on a good note rather than dragging a protesting fluffball around the block.</li><li><strong>Add play on low-walk days.</strong> Fetch in the hallway, a puzzle toy, or yard chase sessions keep things balanced when the weather or your schedule wins.</li><li><strong>Review every few weeks.</strong> Age, season, and your dog's mood change. A routine is a draft, not a contract.</li></ol>
-<h2>Common mistakes when comparing your Pom's walks</h2>
+<h2 id="common-mistakes-when-comparing-your-pom-s-walks">Common mistakes when comparing your Pom's walks</h2>
 <ul><li><strong>Treating the forum median as a target.</strong> 57.5 minutes describes this sample, not what your dog needs. A happy Pom on 40 minutes is not "behind".</li><li><strong>Comparing walk-only minutes with exercise totals.</strong> PitPat's and Pomeranian.org's figures include play. If your Pom does 20 minutes of walking and 20 of fetch, you are comparing apples with slightly different apples.</li><li><strong>Ignoring the weekday/weekend split.</strong> Many owners added long weekend hikes. Compare weekday with weekday.</li><li><strong>Counting distance as if it were time.</strong> A slow sniffy mile and a brisk mile take very different amounts of time and effort. Track minutes if you want to compare with these figures.</li><li><strong>Pushing past clear refusal.</strong> Owners repeatedly described Poms who plant themselves and stare. The data cannot tell you to override that; your dog's behavior can tell you to try a different route, time, or type of walk.</li><li><strong>Copying a big-dog routine.</strong> Some owners walk their Pom alongside a larger dog. That can work, but check your Pom's interest rather than assuming the big dog's schedule fits.</li></ul>
 <p>If you are also tracking your Pom's size, keep walk logs and weight logs as separate records; our guide to <a href="/pomeranian-adult-weight.html">adult Pomeranian weight reports</a> explains how to record measurements consistently, and the <a href="/care.html">Pomeranian care guide</a> collects the everyday basics in one place.</p>
 <p>Related guide: <a href="/pomeranian-harness-training.html">Pomeranian Hates the Harness</a>.</p>
-<h2>Frequently asked questions</h2>
+<h2 id="frequently-asked-questions">Frequently asked questions</h2>
 <details><summary>How long should I walk my Pomeranian each day?</summary><p>Published guides suggest roughly 20–50 minutes of daily exercise for a healthy adult, often split into two walks plus play. In our owner sample the median was 57.5 minutes of walking per day, but that is a description of enthusiastic owners, not a requirement.</p></details>
 <details><summary>How many walks a day do Pomeranians usually get?</summary><p>Most owners in the sample did two or three outings a day. Of 38 routines with a clear count, 14 had about two walks, 13 had about three, 6 had more than three, and 5 had one.</p></details>
 <details><summary>Does indoor play count toward a Pomeranian's exercise?</summary><p>The guides count it. Pomeranian.org pairs short walks with play at home, PitPat's 50-minute figure includes play sessions, and the AKC profile says Poms can be exercised with indoor play and short walks.</p></details>
 <details><summary>My Pomeranian refuses to walk far. Is that unusual?</summary><p>Not in these threads. Several owners described Poms who sit down after a block or ask to be carried, while others had dogs who would walk for hours. Owners often reported better results from more interesting routes, sniff time, and cooler times of day.</p></details>
 <details><summary>How long can a Pomeranian walk at once?</summary><p>Some owners described single walks of an hour or more, and one routine included a two-hour dog-park session. Others kept walks to 10–20 minutes. The sample shows a wide range rather than a single maximum.</p></details>
 <details><summary>Do Pomeranian puppies follow the same walk times?</summary><p>No. Puppies were excluded from our sample. PitPat uses a rule of thumb of 5 minutes of exercise per month of age, and Pomeranian.org says young Pomeranian puppies do not need long walks or strenuous exercise.</p></details>
-<h2>The short version: minutes matter less than the routine</h2>
+<h2 id="the-short-version-minutes-matter-less-than-the-routine">The short version: minutes matter less than the routine</h2>
 <p>So, how long do Pomeranians walk? On paper, 20–50 minutes. In the 42 routines owners described, closer to an hour, usually split into two or three outings, with huge variation from a 10-minute minimalist to a three-hours-a-day explorer. Use the advice as a starting point, the checker to see where you stand, and your Pom's tail, nose, and occasional sit-down protest to fine-tune the rest.</p>
 <p class="ai-note"><strong>Pomeranian Hub.</strong> This article was prepared with AI assistance. Owner routines are unverified self-reports coded from public discussions; advice figures are linked to their original pages.</p>
 </article>
 <aside class="sidebar" data-follow-sidebar="existing">
-    
-    
-
-    <div class="sidebar-about">
-      <strong>About Pomeranian Guide</strong>
-      Dedicated to Pomeranian owners and enthusiasts. In-depth guides, care tips, and national dog day coverage.
-    </div>
-
-    <div class="sidebar-links">
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="/blog.html">Latest Articles</a></li>
-        <li><a href="/care.html">Pomeranian Care Guide</a></li>
-        <li><a href="/about.html">About Us</a></li>
-        <li><a href="/privacy.html">Privacy</a></li>
-        <li><a href="/sitemap.html">Sitemap</a></li>
-      </ul>
-      <h4>Latest articles</h4><ul></ul>
-    </div>
-  </aside></div><script>(function(){
+<nav class="sb-panel toc" aria-label="On this page"><h3>On this page</h3><ol><li><a href="#walk-tool-title">Check your Pom&#x27;s walk routine against owners and advice</a></li><li><a href="#how-long-should-a-pomeranian-walk-according-to-the-guides">How long should a Pomeranian walk according to the guides?</a></li><li><a href="#how-long-do-pomeranian-owners-actually-walk-their-dogs">How long do Pomeranian owners actually walk their dogs?</a></li><li><a href="#how-many-walks-a-day-do-pomeranians-get">How many walks a day do Pomeranians get?</a></li><li><a href="#why-do-some-poms-walk-an-hour-and-others-quit-after-a-block">Why do some Poms walk an hour and others quit after a block?</a></li><li><a href="#is-the-20-50-minute-advice-wrong-then">Is the 20–50 minute advice wrong, then?</a></li><li><a href="#how-we-coded-the-owner-reports">How we coded the owner reports</a></li><li><a href="#step-by-step-build-a-walk-routine-that-fits-your-pom">Step-by-step: build a walk routine that fits your Pom</a></li><li><a href="#common-mistakes-when-comparing-your-pom-s-walks">Common mistakes when comparing your Pom&#x27;s walks</a></li><li><a href="#frequently-asked-questions">Frequently asked questions</a></li><li><a href="#the-short-version-minutes-matter-less-than-the-routine">The short version: minutes matter less than the routine</a></li></ol></nav>
+<nav class="sb-panel paths-mini" aria-label="Topics"><h3>Pick a path</h3><ul><li><a href="/blog.html#food">Food & weight</a></li><li><a href="/blog.html#coat">Coat & grooming</a></li><li><a href="/blog.html#walks">Walks & harness</a></li></ul></nav>
+<div class="sb-panel"><h4>More guides</h4><ul><li><a href="/pomeranian-feeding-amount.html">Pomeranian Feeding Amount: Owner Cups by Weight vs Charts</a></li><li><a href="/pomeranian-grooming-schedule.html">Pomeranian Grooming Schedule: Owner Routines vs Breed Advice</a></li><li><a href="/pomeranian-harness-training.html">Pomeranian Hates the Harness? A Gentle Training Plan</a></li><li><a href="/pomeranian-adult-weight.html">Pomeranian Weight: Adult Owner Reports vs Breed Standard</a></li></ul></div>
+<div class="sb-panel"><h3>About this site</h3><p>Owner reports on Pomeranian feeding, weight, grooming and walks, set next to breed standards and published charts. Not a vet clinic.</p></div>
+</aside></div><script>(function(){
 'use strict';
 const routines=[10,17.5,18.75,20,30,30,31.25,35,37.5,37.5,40,40,45,45,45,50,50,52.5,52.5,52.5,55,60,60,65,67.5,67.5,70,71.25,72.5,75,75,80,80,90,100,100,105,120,127.5,150,150,180];
 const advice=[{label:'20–30 min (low end of the guides)',min:20,max:30},{label:'about 30 min (Pomeranian.org)',min:30,max:30},{label:'about 50 min (PitPat)',min:50,max:50}];
@@ -321,14 +315,10 @@ function render(e){if(e)e.preventDefault();
 form.addEventListener('submit',render);render();
 })();
 </script><footer class="sc-footer">
-  <div class="sc-footer-nav">
-    <a href="/">Home</a>
-    <a href="/blog.html">Blog</a>
-    <a href="/about.html">About</a>
-    <a href="/contact.html">Contact</a>
-    <a href="/privacy.html">Privacy</a>
-    <a href="/sitemap.html">Sitemap</a>
+  <div class="sc-footer-inner">
+    <a class="sc-topbar-brand" href="/">Pomeranian Guide<span>.</span></a>
+    <nav class="sc-footer-nav" aria-label="Footer"><a href="/blog.html">All guides</a><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/editorial-policy.html">Editorial policy</a><a href="/disclosure.html">Disclosure</a><a href="/privacy.html">Privacy</a><a href="/sitemap.html">Sitemap</a></nav>
+    <p>&copy; 2026 Pomeranian Guide. Guides are researched and drafted with AI assistance, checked by a person, and are not a substitute for your vet.</p>
   </div>
-  <p>&copy; 2026 pomeranian-hub.github.io &mdash; Pomeranian Guide. All rights reserved.</p>
 </footer>
 </body></html>
