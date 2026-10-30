@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dog Park Directory: Public Dog Parks by US State, Fenced Ones Marked</title>
-<meta name="description" content="1646 public dog parks from OpenStreetMap by state and city, with fenced parks marked for small dogs like Pomeranians.">
+<meta name="description" content="2737 public dog parks from OpenStreetMap by state and city, with fenced parks marked for small dogs like Pomeranians.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://pomeranian-hub.github.io/dog-parks/">
 <link rel="icon" href="data:,">
@@ -184,6 +184,16 @@ img{max-width:100%;height:auto}
 .small-dog{margin:28px 0 0;padding:20px 22px;border-left:4px solid var(--accent);background:var(--soft);border-radius:0 var(--r) var(--r) 0}
 .small-dog h2{margin:0 0 10px;font-size:22px;text-transform:uppercase}.small-dog ul{margin:0;padding-left:20px}
 .osm-note{margin:36px 0 0;font-size:14px;color:var(--muted)}
+.dir-map{height:440px;margin:28px 0 8px;border-radius:var(--r);border:1px solid var(--line);background:var(--soft)}
+.map-key{font-size:14px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;margin:0 0 8px}
+.k{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--plum);margin-right:-8px}.k.f{background:var(--accent)}
+.park .facts{color:var(--text)}
+.stat-box{margin:0 0 28px;padding:22px 24px;border:2px solid var(--ink);border-radius:var(--r)}
+.stat-box h2{font-size:20px;margin:22px 0 8px;text-transform:uppercase}.stat-box ol{margin:0;padding-left:22px}
+.figs-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:16px}
+.figs-row b{display:block;font:800 40px/1 var(--display);color:var(--ink)}.figs-row span{font-size:14px;color:var(--muted)}
+.city-sum{margin:-6px 0 14px;color:var(--muted);font-size:16px}
+@media(max-width:600px){.dir-map{height:320px}}
 </style>
 </head>
 <body>
@@ -197,8 +207,8 @@ img{max-width:100%;height:auto}
 </header>
 <main id="content">
 <nav class="breadcrumb" aria-label="Breadcrumb" style="max-width:var(--w,var(--wrap));margin:0 auto;padding:24px 24px 0;display:flex;flex-wrap:wrap;gap:8px;font-size:14px"><a href="/">Home</a><span>›</span><span aria-current="page">Dog parks</span></nav>
-<section class="hero"><div class="hero-inner"><p class="kicker">Dog park directory</p><h1>Find a dog park by state</h1><p class="lead">1646 public dog parks in the 10 states with the most listings, fenced parks marked. More states are added as the directory grows.</p></div></section>
-<div class="sec" style="padding-top:32px"><div class="st-grid"><a href="/dog-parks/california.html">California<small>383 parks</small></a><a href="/dog-parks/colorado.html">Colorado<small>106 parks</small></a><a href="/dog-parks/florida.html">Florida<small>194 parks</small></a><a href="/dog-parks/illinois.html">Illinois<small>125 parks</small></a><a href="/dog-parks/new-york.html">New York<small>144 parks</small></a><a href="/dog-parks/ohio.html">Ohio<small>98 parks</small></a><a href="/dog-parks/pennsylvania.html">Pennsylvania<small>111 parks</small></a><a href="/dog-parks/texas.html">Texas<small>240 parks</small></a><a href="/dog-parks/washington.html">Washington<small>146 parks</small></a><a href="/dog-parks/wisconsin.html">Wisconsin<small>99 parks</small></a></div><p class="osm-note">Data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ODbL, as of 2026-10-30. Listings are not checked in person.</p></div>
+<section class="hero"><div class="hero-inner"><p class="kicker">Dog park directory</p><h1>Find a dog park by state</h1><p class="lead">2737 public dog parks across 40 states with at least 15 listings, fenced parks marked.</p></div></section>
+<div class="sec" style="padding-top:32px"><div class="st-grid"><a href="/dog-parks/alabama.html">Alabama<small>29 parks</small></a><a href="/dog-parks/arizona.html">Arizona<small>62 parks</small></a><a href="/dog-parks/arkansas.html">Arkansas<small>29 parks</small></a><a href="/dog-parks/california.html">California<small>361 parks</small></a><a href="/dog-parks/colorado.html">Colorado<small>97 parks</small></a><a href="/dog-parks/connecticut.html">Connecticut<small>36 parks</small></a><a href="/dog-parks/delaware.html">Delaware<small>15 parks</small></a><a href="/dog-parks/district-of-columbia.html">District of Columbia<small>16 parks</small></a><a href="/dog-parks/florida.html">Florida<small>162 parks</small></a><a href="/dog-parks/georgia.html">Georgia<small>57 parks</small></a><a href="/dog-parks/idaho.html">Idaho<small>15 parks</small></a><a href="/dog-parks/illinois.html">Illinois<small>110 parks</small></a><a href="/dog-parks/indiana.html">Indiana<small>37 parks</small></a><a href="/dog-parks/iowa.html">Iowa<small>26 parks</small></a><a href="/dog-parks/kansas.html">Kansas<small>35 parks</small></a><a href="/dog-parks/louisiana.html">Louisiana<small>17 parks</small></a><a href="/dog-parks/maine.html">Maine<small>20 parks</small></a><a href="/dog-parks/maryland.html">Maryland<small>59 parks</small></a><a href="/dog-parks/massachusetts.html">Massachusetts<small>80 parks</small></a><a href="/dog-parks/michigan.html">Michigan<small>69 parks</small></a><a href="/dog-parks/minnesota.html">Minnesota<small>63 parks</small></a><a href="/dog-parks/missouri.html">Missouri<small>41 parks</small></a><a href="/dog-parks/montana.html">Montana<small>18 parks</small></a><a href="/dog-parks/nebraska.html">Nebraska<small>27 parks</small></a><a href="/dog-parks/nevada.html">Nevada<small>24 parks</small></a><a href="/dog-parks/new-jersey.html">New Jersey<small>68 parks</small></a><a href="/dog-parks/new-mexico.html">New Mexico<small>35 parks</small></a><a href="/dog-parks/new-york.html">New York<small>131 parks</small></a><a href="/dog-parks/north-carolina.html">North Carolina<small>69 parks</small></a><a href="/dog-parks/ohio.html">Ohio<small>88 parks</small></a><a href="/dog-parks/oklahoma.html">Oklahoma<small>24 parks</small></a><a href="/dog-parks/oregon.html">Oregon<small>86 parks</small></a><a href="/dog-parks/pennsylvania.html">Pennsylvania<small>97 parks</small></a><a href="/dog-parks/south-carolina.html">South Carolina<small>44 parks</small></a><a href="/dog-parks/tennessee.html">Tennessee<small>57 parks</small></a><a href="/dog-parks/texas.html">Texas<small>203 parks</small></a><a href="/dog-parks/utah.html">Utah<small>30 parks</small></a><a href="/dog-parks/virginia.html">Virginia<small>76 parks</small></a><a href="/dog-parks/washington.html">Washington<small>131 parks</small></a><a href="/dog-parks/wisconsin.html">Wisconsin<small>93 parks</small></a></div><p class="osm-note">Data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ODbL, as of 2026-10-30. Listings are not checked in person.</p></div>
 </main>
 <footer class="sc-footer">
   <div class="sc-footer-inner">
