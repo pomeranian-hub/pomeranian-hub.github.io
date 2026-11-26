@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://pomeranian-hub.github.io/</loc><lastmod>2026-10-06</lastmod><priority>1.0</priority></url>
   <url><loc>https://pomeranian-hub.github.io/blog.html</loc><lastmod>2026-10-06</lastmod><priority>0.5</priority></url>
-  <url><loc>https://pomeranian-hub.github.io/about.html</loc><lastmod>2026-10-06</lastmod><priority>0.5</priority></url>
-  <url><loc>https://pomeranian-hub.github.io/contact.html</loc><lastmod>2026-10-06</lastmod><priority>0.5</priority></url>
-  <url><loc>https://pomeranian-hub.github.io/privacy.html</loc><lastmod>2026-10-06</lastmod><priority>0.5</priority></url>
-  <url><loc>https://pomeranian-hub.github.io/editorial-policy.html</loc><lastmod>2026-10-06</lastmod><priority>0.5</priority></url>
-  <url><loc>https://pomeranian-hub.github.io/disclosure.html</loc><lastmod>2026-10-06</lastmod><priority>0.5</priority></url>
-  <url><loc>https://pomeranian-hub.github.io/sitemap.html</loc><lastmod>2026-10-06</lastmod><priority>0.5</priority></url>
+  <url><loc>https://pomeranian-hub.github.io/about.html</loc><lastmod>2026-10-04</lastmod><priority>0.5</priority></url>
+  <url><loc>https://pomeranian-hub.github.io/contact.html</loc><lastmod>2026-10-03</lastmod><priority>0.5</priority></url>
+  <url><loc>https://pomeranian-hub.github.io/privacy.html</loc><lastmod>2026-10-05</lastmod><priority>0.5</priority></url>
+  <url><loc>https://pomeranian-hub.github.io/editorial-policy.html</loc><lastmod>2026-10-04</lastmod><priority>0.5</priority></url>
+  <url><loc>https://pomeranian-hub.github.io/disclosure.html</loc><lastmod>2026-10-03</lastmod><priority>0.5</priority></url>
+  <url><loc>https://pomeranian-hub.github.io/sitemap.html</loc><lastmod>2026-10-05</lastmod><priority>0.5</priority></url>
   <url>
     <loc>https://pomeranian-hub.github.io/pomeranian-adult-weight.html</loc>
     <lastmod>2026-10-21</lastmod>
@@ -55,7 +55,7 @@
   </url>
   <url>
     <loc>https://pomeranian-hub.github.io/dog-parks/florida.html</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://pomeranian-hub.github.io/dog-parks/texas.html</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-10-27</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -78,5 +78,10 @@
     <lastmod>2026-11-10</lastmod>
     <priority>0.6</priority>
   </url>
-<url><loc>https://pomeranian-hub.github.io/brushing-planner.html</loc></url>
+<url><loc>https://pomeranian-hub.github.io/brushing-planner.html</loc><lastmod>2026-11-24</lastmod></url>
+  <url>
+    <loc>https://pomeranian-hub.github.io/pomeranian-teddy-bear-cut.html</loc>
+    <lastmod>2026-11-25</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>
